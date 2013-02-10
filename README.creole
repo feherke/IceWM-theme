@@ -1,0 +1,16 @@
+= Greasemonkey Script
+
+The [[https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/|Greasemonkey]] extension for Firefox runs scripts in the context of the loaded documents.
+A few such scripts can be downloaded from the [[http://userscripts.org/|userscripts.org script repository]].
+
+This repository contains a collection of scripts - each directory contains one script and the related files.
+
+Here are some scripts I wrote.
+
+* **TipMaster - Author Hightlight** - Highlights the OP's and own messages in a thread.
+* **TipMaster - markItUp Setting** - Improved settings for the markItUp! editor.
+* **TipMaster - Reply with Quote** - Adds a reply link below each post to easily quote the answered message.
+* **TipMaster - Show/Hide Spoiler** - Adds links to show/hide spoiler tag's content.
+* **TipMaster - Time Ago** - Adds relative approximate equivalent after dates.
+
+These scripts were intentionally kept short. For details see the [[http://feherke.github.com/javascript/greasemonkey/|Greasemonkey section of my site]].

@@ -1,0 +1,479 @@
+# Mars Text - IceWM theme by Feherke
+# edited with Midnight Commander and GIMP
+# Mars theme
+
+#  Theme name
+Theme="Mars Text"
+
+#  Theme author, e-mail address, credits
+ThemeAuthor="Feherke"
+
+#  Description of the theme, credits
+ThemeDescription="Feel the power of red planet"
+
+Look=pixmap
+
+#  Does it support the 'O' title bar button images (for mouse rollover)
+# RolloverButtonsSupported=0 # 0/1
+
+#  Task bar clock/APM uses nice pixmapped LCD display (but then it doesn't display correctly in many languages anymore, e.g. for Japanese and Korean it works only when a real font is used and not the LEDs
+# TaskBarClockLeds=0 # 0/1
+
+#  Surround the tray with plastic border
+# TrayDrawBevel=0 # 0/1
+
+#  Draw window title centered (obsoleted by TitleBarJustify)
+# TitleBarCentered=0 # 0/1
+
+#  Join title*S and title*T
+# TitleBarJoinLeft=0 # 0/1
+
+#  Join title*T and title*B
+# TitleBarJoinRight=0 # 0/1
+
+#  Show application icon over menu button
+ShowMenuButtonIcon=0 # 0/1
+
+#  Horizontal window border
+BorderSizeX=3 # [0-128]
+
+#  Vertical window border
+BorderSizeY=3 # [0-128]
+
+#  Horizontal dialog window border
+# DlgBorderSizeX=2 # [0-128]
+
+#  Vertical dialog window border
+# DlgBorderSizeY=2 # [0-128]
+
+#  Resize corner width
+# CornerSizeX=24 # [0-64]
+
+#  Resize corner height
+# CornerSizeY=24 # [0-64]
+
+#  Title bar height
+# TitleBarHeight=20 # [0-128]
+
+#  Justification of the window title
+# TitleBarJustify=0 # [0-100]
+
+#  Horizontal offset for the window title text
+# TitleBarHorzOffset=0 # [-128-128]
+
+#  Vertical offset for the window title text
+# TitleBarVertOffset=0 # [-128-128]
+
+#  Scrollbar width
+# ScrollBarX=16 # [0-64]
+
+#  Scrollbar (button) height
+# ScrollBarY=16 # [0-64]
+
+#  Menu icon size
+# MenuIconSize=16 # [8-128]
+
+#  Dimension of the small icons
+# SmallIconSize=16 # [8-128]
+
+#  Dimension of the large icons
+# LargeIconSize=32 # [8-128]
+
+#  Dimension of the large icons
+# HugeIconSize=48 # [8-128]
+
+#  Horizontal margin of the quickswitch window
+# QuickSwitchHorzMargin=3 # [0-64]
+
+#  Vertical margin of the quickswitch window
+# QuickSwitchVertMargin=3 # [0-64]
+
+#  Vertical margin in the quickswitch window
+# QuickSwitchIconMargin=4 # [0-64]
+
+#  Distance between the active icon and it's border
+# QuickSwitchIconBorder=2 # [0-64]
+
+#  Height of the separator between (all reachable) icons and text, 0 to avoid it
+# QuickSwitchSeparatorSize=6 # [0-64]
+
+#  Titlebar buttons from left to right (x=close,  m=max,  i=min,  h=hide, r=rollup,       s=sysmenu,      d=depth)
+TitleButtonsLeft="sdh"
+
+#  Titlebar buttons from right to left (x=close,  m=max,  i=min,  h=hide, r=rollup,       s=sysmenu,      d=depth)
+TitleButtonsRight="xmir"
+
+#  Titlebar buttons supported by theme (x,m,i,r,h,s,d)
+TitleButtonsSupported="xmirhsd"
+
+#  
+TitleFontName="-*-courier new-*-r-*-*-11-*-*-*-*-*-*-*"
+
+#  
+TitleFontNameXft="Courier New:size=10:bold"
+
+#  
+MenuFontName="-*-courier new-*-r-*-*-11-*-*-*-*-*-*-*"
+
+#  
+MenuFontNameXft="Courier New:size=10:bold"
+
+#  
+StatusFontName="-*-courier new-*-r-*-*-11-*-*-*-*-*-*-*"
+
+#  
+StatusFontNameXft="Courier New:size=10:bold"
+
+#  
+QuickSwitchFontName="-*-courier new-*-r-*-*-11-*-*-*-*-*-*-*"
+
+#  
+QuickSwitchFontNameXft="Courier New:size=10:bold"
+
+#  
+NormalButtonFontName="-*-courier new-*-r-*-*-11-*-*-*-*-*-*-*"
+
+#  
+NormalButtonFontNameXft="Courier New:size=10:bold"
+
+#  
+ActiveButtonFontName="-*-courier new-*-r-*-*-11-*-*-*-*-*-*-*"
+
+#  
+ActiveButtonFontNameXft="Courier New:size=10:bold"
+
+#  
+NormalTaskBarFontName="-*-courier new-*-r-*-*-11-*-*-*-*-*-*-*"
+
+#  
+NormalTaskBarFontNameXft="Courier New:size=10:bold"
+
+#  
+ActiveTaskBarFontName="-*-courier new-*-r-*-*-11-*-*-*-*-*-*-*"
+
+#  
+ActiveTaskBarFontNameXft="Courier New:size=10:bold"
+
+#  fallback: NormalButtonFontName
+# ToolButtonFontName="-*-sans-medium-r-*-*-*-120-*-*-*-*-*-*"
+
+#  fallback: NormalButtonFontName
+# ToolButtonFontNameXft="sans-serif:size=12"
+
+#  fallback: NormalButtonFontName
+# NormalWorkspaceFontName="-*-sans-medium-r-*-*-*-120-*-*-*-*-*-*"
+
+#  fallback: NormalButtonFontName
+# NormalWorkspaceFontNameXft="sans-serif:size=12"
+
+#  fallback: ActiveButtonFontName
+# ActiveWorkspaceFontName="-*-sans-medium-r-*-*-*-120-*-*-*-*-*-*"
+
+#  fallback: ActiveButtonFontName
+# ActiveWorkspaceFontNameXft="sans-serif:size=12"
+
+#  
+MinimizedWindowFontName="-*-courier new-*-r-*-*-11-*-*-*-*-*-*-*"
+
+#  
+MinimizedWindowFontNameXft="Courier New:size=10:bold"
+
+#  
+ListBoxFontName="-*-courier new-*-r-*-*-11-*-*-*-*-*-*-*"
+
+#  
+ListBoxFontNameXft="Courier New:size=10:bold"
+
+#  
+ToolTipFontName="-*-courier new-*-r-*-*-11-*-*-*-*-*-*-*"
+
+#  
+ToolTipFontNameXft="Courier New:size=10:bold"
+
+#  
+ClockFontName="-*-courier new-*-r-*-*-11-*-*-*-*-*-*-*"
+
+#  
+ClockFontNameXft="Courier New:size=10:bold"
+
+#  
+ApmFontName="-*-courier new-*-r-*-*-11-*-*-*-*-*-*-*"
+
+#  
+ApmFontNameXft="Courier New:size=10:bold"
+
+#  
+InputFontName="-*-courier new-*-r-*-*-11-*-*-*-*-*-*-*"
+
+#  
+InputFontNameXft="Courier New:size=10:bold"
+
+#  
+LabelFontName="-*-courier new-*-r-*-*-11-*-*-*-*-*-*-*"
+
+#  
+LabelFontNameXft="Courier New:size=10:bold"
+
+#  Background of dialog windows
+ColorDialog="#600000"
+
+#  Border of inactive windows
+ColorNormalBorder="#600000"
+
+#  Border of active windows
+ColorActiveBorder="#000000"
+
+#  Background of regular buttons
+ColorNormalButton="#900000"
+
+#  Textcolor of regular buttons
+ColorNormalButtonText="#c0c000"
+
+#  Background of pressed buttons
+ColorActiveButton="#000000"
+
+#  Textcolor of pressed buttons
+ColorActiveButtonText="#c0c000"
+
+#  Background of titlebar buttons
+ColorNormalTitleButton="#600000"
+
+#  Textcolor of titlebar buttons
+ColorNormalTitleButtonText="#c0c000"
+
+#  Background of toolbar buttons, ColorNormalButton is used if empty
+# ColorToolButton=""
+
+#  Textcolor of toolbar buttons, ColorNormalButtonText is used if empty
+# ColorToolButtonText=""
+
+#  Background of workspace buttons, ColorNormalButton is used if empty
+# ColorNormalWorkspaceButton=""
+
+#  Textcolor of workspace buttons, ColorNormalButtonText is used if empty
+# ColorNormalWorkspaceButtonText=""
+
+#  Background of the active workspace button, ColorActiveButton is used if empty
+# ColorActiveWorkspaceButton=""
+
+#  Textcolor of the active workspace button, ColorActiveButtonText is used if empty
+# ColorActiveWorkspaceButtonText=""
+
+#  Background of the titlebar of regular windows
+ColorNormalTitleBar="#600000"
+
+#  Textcolor of the titlebar of regular windows
+ColorNormalTitleBarText="#c0c000"
+
+#  Textshadow of the titlebar of regular windows
+# ColorNormalTitleBarShadow=""
+
+#  Background of the titlebar of active windows
+ColorActiveTitleBar="#000000"
+
+#  Textcolor of the titlebar of active windows
+ColorActiveTitleBarText="#c0c000"
+
+#  Textshadow of the titlebar of active windows
+# ColorActiveTitleBarShadow=""
+
+#  Background for mini icons of regular windows
+ColorNormalMinimizedWindow="#900000"
+
+#  Textcolor for mini icons of regular windows
+ColorNormalMinimizedWindowText="#c0c000"
+
+#  Background for mini icons of active windows
+ColorActiveMinimizedWindow="#000000"
+
+#  Textcolor for mini icons of active windows
+ColorActiveMinimizedWindowText="#c0c000"
+
+#  Background of pop-up menus
+ColorNormalMenu="#600000"
+
+#  Textcolor of regular menu items
+ColorNormalMenuItemText="#c0c000"
+
+#  Background of selected menu item, leave empty to force transparency
+ColorActiveMenuItem="#000000"
+
+#  Textcolor of selected menu items
+ColorActiveMenuItemText="#c0c000"
+
+#  Textcolor of disabled menu items
+ColorDisabledMenuItemText="#000000"
+
+#  Shadow of regular menu items
+# ColorDisabledMenuItemShadow=""
+
+#  Background of move/resize status window
+ColorMoveSizeStatus="#000000"
+
+#  Textcolor of move/resize status window
+ColorMoveSizeStatusText="#f00000"
+
+#  Background of the quick switch window
+ColorQuickSwitch="#600000"
+
+#  Textcolor in the quick switch window
+ColorQuickSwitchText="#c0c000"
+
+#  Rectangle arround the active icon in the quick switch window
+# ColorQuickSwitchActive=""
+
+#  Background of the taskbar
+ColorDefaultTaskBar="#600000"
+
+#  Background for task buttons of regular windows
+ColorNormalTaskBarApp="#900000"
+
+#  Textcolor for task buttons of regular windows
+ColorNormalTaskBarAppText="#c0c000"
+
+#  Background for task buttons of the active window
+ColorActiveTaskBarApp="#000000"
+
+#  Textcolor for task buttons of the active window
+ColorActiveTaskBarAppText="#c0c000"
+
+#  Background for task buttons of minimized windows
+ColorMinimizedTaskBarApp="#600000"
+
+#  Textcolor for task buttons of minimized windows
+ColorMinimizedTaskBarAppText="#c0c000"
+
+#  Background for task buttons of windows on other workspaces
+ColorInvisibleTaskBarApp="#900000"
+
+#  Textcolor for task buttons of windows on other workspaces
+ColorInvisibleTaskBarAppText="#000000"
+
+#  Scrollbar background (sliding area)
+# ColorScrollBar="rgb:A0/A0/A0"
+
+#  Background of the slider button in scrollbars
+# ColorScrollBarSlider="rgb:C0/C0/C0"
+
+#  Background of the arrow buttons in scrollbars
+# ColorScrollBarButton="rgb:C0/C0/C0"
+
+#  Background of the arrow buttons in scrollbars (obsolete)
+# ColorScrollBarArrow="rgb:C0/C0/C0"
+
+#  Color of active arrows on scrollbar buttons
+# ColorScrollBarButtonArrow="rgb:00/00/00"
+
+#  Color of inactive arrows on scrollbar buttons
+# ColorScrollBarInactiveArrow="rgb:80/80/80"
+
+#  Background of listboxes
+ColorListBox="#600000"
+
+#  Textcolor in listboxes
+ColorListBoxText="#c0c000"
+
+#  Background of selected listbox items
+ColorListBoxSelection="#000000"
+
+#  Textcolor of selected listbox items
+ColorListBoxSelectionText="#c0c000"
+
+#  Background of tooltips
+ColorToolTip="#000000"
+
+#  Textcolor of tooltips
+ColorToolTipText="#f00000"
+
+#  Background of labels, leave empty to force transparency
+ColorLabel="#600000"
+
+#  Textcolor of labels
+ColorLabelText="#c0c000"
+
+#  Background of text entry fields (e.g. the addressbar)
+ColorInput="#600000"
+
+#  Textcolor of text entry fields (e.g. the addressbar)
+ColorInputText="#c0c000"
+
+#  Background of selected text in an entry field
+ColorInputSelection="#000000"
+
+#  Selected text in an entry field
+ColorInputSelectionText="#c0c000"
+
+#  Background of non-LCD clock, leave empty to force transparency
+ColorClock="#900000"
+
+#  Background of non-LCD monitor
+ColorClockText="#c0c000"
+
+#  Background of APM monitor, leave empty to force transparency
+ColorApm="#900000"
+
+#  Textcolor of APM monitor
+ColorApmText="#c0c000"
+
+#  Color of APM monitor in battary mode
+# ColorApmBattary="rgb:FF/FF/00"
+
+#  Color of APM monitor in line mode
+# ColorApmLine="rgb:00/FF/00"
+
+#  Background color for graph mode
+# ColorApmGraphBg="rgb:00/00/00"
+
+#  User load on the CPU monitor
+ColorCPUStatusUser="#ffff00"
+
+#  System load on the CPU monitor
+ColorCPUStatusSystem="#000000"
+
+#  Interrupts on the CPU monitor
+ColorCPUStatusInterrupts="#c0c000"
+
+#  IO Wait on the CPU monitor
+ColorCPUStatusIoWait="#600000"
+
+#  Soft Interrupts on the CPU monitor
+ColorCPUStatusSoftIrq="#00ffff"
+
+#  Nice load on the CPU monitor
+ColorCPUStatusNice="#ff0000"
+
+#  Idle (non) load on the CPU monitor, leave empty to force transparency
+ColorCPUStatusIdle="#900000"
+
+#  Outgoing load on the network monitor
+ColorNetSend="#ffff00"
+
+#  Incoming load on the network monitor
+ColorNetReceive="#000000"
+
+#  Idle (non) load on the network monitor, leave empty to force transparency
+ColorNetIdle="#900000"
+
+#  List of gradient pixmaps in the current theme
+# Gradients=""
+
+#  Display desktop background centered and not tiled
+# DesktopBackgroundCenter=0 # 0/1
+
+#  Support for semitransparent terminals like Eterm or gnome-terminal
+# SupportSemitransparency=1 # 0/1
+
+#  Desktop background scaled to full screen
+# DesktopBackgroundScaled=0 # 0/1
+
+#  Desktop background color
+DesktopBackgroundColor="#300000"
+
+#  Desktop background image
+# DesktopBackgroundImage=""
+
+#  Color to announce for semi-transparent windows
+# DesktopTransparencyColor=""
+
+#  Image to announce for semi-transparent windows
+# DesktopTransparencyImage=""
