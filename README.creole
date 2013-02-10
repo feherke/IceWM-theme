@@ -1,0 +1,12 @@
+= IceWM Theme
+
+The [[http://www.icewm.org/|IceWM]] window manager is really versatile and easily themable and configurable. A few such scripts can be downloaded from the
+[[http://box-look.org/index.php?xcontentmode=7311|Box-Look site's IceWM Themes page]].
+
+This repository contains a collection of themes - each directory contains one theme and the related files.
+
+Here are some themes I wrote.
+
+* **Mars Text** - Theme with redish color palette using textual buttons.
+
+These themes were intentionally kept short. For details see the [[http://feherke.github.com/artwork/icewm/|IceWM theme section of my site]].
