@@ -9,4 +9,4 @@ Here are some themes I wrote.
 
 * **Mars Text** - Theme with redish color palette using textual buttons.
 
-These themes were intentionally kept short. For details see the [[http://feherke.github.com/artwork/icewm/|IceWM theme section of my site]].
+These themes were intentionally kept short. For details see the [[http://feherke.github.io/artwork/icewm/|IceWM theme section of my site]].
